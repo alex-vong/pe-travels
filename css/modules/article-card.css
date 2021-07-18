@@ -1,7 +1,7 @@
 
 .stuff inner-column {
   padding:  30px 15px;
-  max-width:  1400px;
+  max-width:  1200px;
 }
 
 
@@ -44,7 +44,7 @@ article-card a:hover {
 
 article-card h2.attention-voice {
 
-  padding:  20px 15px;
+  padding:  10px 15px 0;
   font-size:  clamp(40px, 6vw, 50px);
   font-weight: 700;
   color:  var(--orange);
@@ -59,7 +59,7 @@ article-card .calm-voice {
 article-grid article-card picture img {
   /*display:  none;*/
   visibility: hidden;
-  height:  350px;
+  height:  300px;
 
 }
 
