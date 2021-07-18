@@ -35,6 +35,11 @@ call-to-action .calm-voice {
 
 }
 
+.get-involved call-to-action .calm-voice {
+  color:  black;
+  text-shadow:  none;
+}
+
 
 call-to-action a {
   margin-top:  20px;
@@ -100,7 +105,7 @@ call-to-action a:hover {
     position: absolute;
     top: 0;
     left:  0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
     height:  100%;
     width:  100%;
