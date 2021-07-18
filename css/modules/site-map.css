@@ -7,8 +7,9 @@ site-map {
   /* */
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: space-between;
+  text-transform: capitalize;
 }
 
 site-map .logo {
@@ -22,6 +23,12 @@ site-map .logo * {
 site-map a {
   padding:  10px;
   text-decoration: underline;
+  font-family: 'Sintony', sans-serif;
+  font-size:  clamp(14px, 1.5vw, 18px);
+}
+
+.site-footer p {
+  font-family: 'Sintony', sans-serif;
 }
 
 @media (min-width:  700px) {

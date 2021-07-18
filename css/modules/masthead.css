@@ -1,21 +1,54 @@
 
+
 mast-head {
   display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:  900;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-mast-head nav {
+mast-head nav.site-menu {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-mast-head .logo {
-  max-width:  60px;
+mast-head a.logo {
+  max-width:  80px;
+  flex-grow:  2;
+  /*margin-bottom: 25px;*/
 }
+
+mast-head .user-menu {
+  text-align:  center;
+  border:  2px solid var(--gray);
+  margin:  10px;
+  padding:  3px;
+}
+
+/*mast-head .logo img{
+  display:  none;
+ 
+}*/
+
+/*mast-head .logo::after {
+  content: url(../../images/compass.svg);
+
+}*/
 
 mast-head a {
   padding:  10px;
+  font-size:  clamp(20px, 5vw, 25px);
+
+  -webkit-text-stroke:  1px var(--black);
 }
+
 
 @media (min-width: 600px) {
   mast-head {
@@ -24,3 +57,38 @@ mast-head a {
     justify-content: space-between;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
