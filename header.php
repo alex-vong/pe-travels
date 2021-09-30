@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang='en'>
+<html class="no-js" lang="">
 	<?php include('head.php'); ?>
 
 	<body>
