@@ -28,18 +28,18 @@
 @import 'modules/call-to-action.css';
 @import 'modules/articles-intro.css';
 @import 'modules/article-card.css';
+@import 'modules/photo-grid.css';
 @import 'modules/site-map.css';
 /* should everything/nothing be in it's own file? */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
 
-html {
-	background-color: var(--white);
-}
 
 body {
-	background-color: white;
+	background-color: #333;
+   font-family: 'Mulish', sans-serif;
 }
 
 
@@ -49,15 +49,10 @@ body {
 
 /* SITE SECTIONS */
 .site-header {
-	/*background-color: #9ec9eb;*/
 	position: sticky;
 	top: 0;
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
-}
-.site-header inner-column {
-	padding: 0 10px;
-}
 
+}
 
 
 /* just to show the full-width and section seperation */
@@ -71,8 +66,16 @@ section:nth-of-type(odd) {
 
 /* OK! SITE STYLES! */
 .site-header {
-  background-color: var(--blue);
+  background-color: var(--light-blue);
+    border-bottom: 5px solid #0aa2d4;
+
+}
+
+
+.site-header mast-head{
+  background-color: var(--light-blue);
   color: var(--white);
+  /*border-bottom: 5px solid #0aa2d4;*/
 }
 
 .welcome {
@@ -84,39 +87,40 @@ section:nth-of-type(odd) {
 
 
 .get-involved {
-  background-color: #fff;
+  /*background-color: var(--blue);*/
 
 /*  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-*/} /* interesting way to include the whole image in your CSS */
+*/} 
 
-.get-involved inner-column {
-	/*max-width:  700px;*/
-}
 
-.get-involved call-to-action {
-	background-color: var(--orange);
+.get-involved, .get-involved call-to-action {
+	background-color: var(--navy-blue);
 
 }
 
 
-.stuff {
-	/*background-color: var(--gray);*/
-  
-}
-
-.help-us {
-	/*background-color: red;*/
-  
-}
-
-.site-footer {
+.stuff, .stuff articles-intro {
 	background-color: var(--blue);
+  
+}
+
+.photo-grid {
+   background-color: #fff;
+}
+
+.help-us, .help-us call-to-action{
+	background-color: var(--gray);
+  
+}
+
+footer, .site-footer {
+	background-color: var(--navy-blue);
 	color: var(--white);
 	padding:  15px;
 }
 
 .site-footer .logo {
-	max-width:  60px;
+	max-width:  120px;
 }
 
 .not-found {

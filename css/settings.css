@@ -2,12 +2,12 @@
 html {
 	--black: #111111;
 	--white: #FFFFFF;
-	--color: #9ec9eb;
-	--highlight: #aadee9;
-	--blue:  #125d98;
+	--blue:  #0d2f56;
 	--gray: #f3f3f3;
-	--light-blue:  #3c8dad;
-	--orange:  #f5a962;
+   --light-blue:  #0054a0;
+	--navy-blue: #0a213d;
+   --green:  #35a748;
+   --font-blue:  #035388;
 }
 
 /* USAGE */
