@@ -1,7 +1,7 @@
 
 articles-intro {
   display: block;
-  padding:  100px 0 50px;
+  padding:  100px 20px 50px;
 }
 
 articles-intro header {
@@ -10,20 +10,15 @@ articles-intro header {
 }
 
 articles-intro header .attention-voice {
-  color:  var(--light-blue);
-  -webkit-text-stroke:  1px var(--blue);
-  font-weight:  700;
+  color:  #fff;
+
 }
 
 articles-intro header .calm-voice {
-  color:  var(--blue);
-  text-shadow: 0px 0px 0 var(--light-blue);
+  color:  #fff;
 
   
 }
 
-articles-intro article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 1em;
-}
+
+
