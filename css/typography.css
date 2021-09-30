@@ -1,28 +1,30 @@
 
+
+
 .loud-voice	{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
-}
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700;
-	}
+   font-family: 'Merriweather', serif;
+	font-size: clamp(40px, 5vw, 60px);
+   font-weight: 700;
+   font-style: italic;
 }
 
+
 .intro-voice	{
-font-family: 'Source Sans Pro', sans-serif;
+
 	font-size: 40px;
 }
 
 .attention-voice	{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+      font-weight: 700;
+   font-style: italic;
 }
 
 .calm-voice {
-	font-family: 'Sintony', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
+
 }
 
 /* these would be scoped to section or to an article element */
@@ -37,9 +39,4 @@ h1 + p {
 
 h2 + p {
 	margin-top: 20px;
-}
-
-a {
-	font-family: 'Source Sans Pro', sans-serif;
-
 }
