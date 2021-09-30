@@ -10,8 +10,31 @@ main {
 
 inner-column {
 	display:  block;
-	max-width: 1100px;
+	width: min(100%, 1200px);
 	margin-right: auto;
 	margin-left: auto;
-	padding: 30px 5px;
+}
+
+@media (min-width:  700px) {
+
+   inner-column {
+      width:  min(90%, 1200px);
+   }
+
+   .stuff inner-column {
+      width:  min(100%, 1300px);
+
+   }
+
+   .welcome inner-column {
+      width:  min(100%, 1600px);
+
+   }
+}
+
+@media (min-width:  1000px) {
+
+   inner-column {
+      width:  min(80%, 1200px);
+   }
 }

@@ -1,10 +1,14 @@
 
 <mast-head>
-
 	<nav class='site-menu'>
 		<a class='logo' href='#'>
-			<img src="images/logo.svg" alt="">
+			<picture>
+				
+ 			<source media='(max-width: 450px)' srcset='images/princess-logo-mobile.svg'>
+
+			<img src="images/princess-logo-desktop.svg" alt="">
 			<!-- or you could actually use the SVG -->
+			</picture>
 		</a>
 
 		<a href='#'>

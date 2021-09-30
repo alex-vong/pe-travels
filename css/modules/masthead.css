@@ -1,63 +1,64 @@
 
+.site-header {
+   z-index:  10000;
+}
 
 mast-head {
   display: block;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight:  900;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:  flex;
+  flex-direction:  row;
+  /*justify-content: space-between;*/
+  width:  100%;
+  
 
 }
 
 mast-head nav.site-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
+  flex-grow:  2;
+
 }
 
 mast-head a.logo {
-  max-width:  80px;
-  flex-grow:  2;
-  /*margin-bottom: 25px;*/
+  max-width:  120px;
+
 }
 
 mast-head .user-menu {
   text-align:  center;
-  border:  2px solid var(--gray);
-  margin:  10px;
-  padding:  3px;
+
 }
 
-/*mast-head .logo img{
-  display:  none;
- 
-}*/
-
-/*mast-head .logo::after {
-  content: url(../../images/compass.svg);
-
-}*/
 
 mast-head a {
   padding:  10px;
-  font-size:  clamp(20px, 5vw, 25px);
+  font-size:  16px;
 
-  -webkit-text-stroke:  1px var(--black);
+}
+
+.user-menu {
+   align-self: center;
 }
 
 
-@media (min-width: 600px) {
-  mast-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+@media (min-width:  450px) {
+
+mast-head nav.site-menu {
+
+  align-items: flex-end;
+  
+
+}
+   mast-head .user-menu {
+    align-self: flex-end;
+
 }
 
+}
 
 
 
